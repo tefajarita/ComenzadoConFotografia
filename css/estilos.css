@@ -25,16 +25,14 @@ header h1{
 
 @-webkit-keyframes mymove {
     0%   {margin-top: 150%}
-    25%  {margin-top: 100%;}
-    75%  {margin-top: 50%}
+    60%  {margin-top: 50%}
     100% {margin-top: -5%;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
    0%   {margin-top: 150%}
-    25%  {margin-top: 100%;}
-    75%  {margin-top: 50%}
+    60%  {margin-top: 50%}
     100% {margin-top: -5%;}
 }
 }
@@ -52,7 +50,7 @@ nav ul{
 }
 
 nav{
-  width: 50%;
+  width: 70%;
 }
 
  li{
@@ -177,9 +175,12 @@ footer img{
     height: 150px;
   }
 
+@media screen and (min-width:769px){
 
+}
 h1{
   width: 70%;
+    right: 40%;
 }
 
   nav{
@@ -199,11 +200,6 @@ h1{
   .cabecera{
     width: 100%;
   }
-
-  h1{
-    right: 40%;
-  }
-
    img{
     width: 100%;
   }
