@@ -1,0 +1,9 @@
+
+.contenedor{
+    background: #5b7989;
+    color:white;
+    text-shadow: 2px #02010a;
+    border-radius: 10px 10px 0px 0px;
+    display: -webkit-flex;
+    display: flex;
+}
